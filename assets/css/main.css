@@ -211,6 +211,30 @@ body div section img {
   margin: 0;
 }
 
+.bodyLogin {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.bodyLogin .titleLogin {
+  /*height: 100px; */
+  flex: 1;
+  /*background-color:blue;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bodyLogin .formsLogin {
+  /*height: 600px; */
+  flex: 7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bodyLogin .formsLogin .loginFormulario form input {
+  width: 280px;
+}
+
 .bodySignUp {
   /*background-color: blue;*/
   display: flex;
