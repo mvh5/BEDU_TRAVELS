@@ -217,7 +217,6 @@ body div section img {
   flex-direction: column;
 }
 .bodySignUp .title {
-  background-color: orange;
   width: 100%;
   height: 100px;
   display: flex;
@@ -231,18 +230,27 @@ body div section img {
   display: flex;
 }
 .bodySignUp .campos .formulario {
-  background-color: blue;
   flex: 3;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 .bodySignUp .campos .formulario form {
   /*margin:3px; */
 }
+.bodySignUp .campos .formulario form input {
+  width: 280px;
+}
 .bodySignUp .campos .imagenSignup {
-  background-color: red;
   flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodySignUp .campos .imagenSignup img {
+  width: 80%;
+  height: 50%;
 }
 
 @media screen and (max-width: 425px) {
@@ -279,6 +287,10 @@ body div section img {
     display: grid;
     grid-template-rows: 100px 600px 800px;
     grid-gap: 0px;
+  }
+
+  .bodySignUp .campos .imagenSignup {
+    flex: 0;
   }
 }
 
