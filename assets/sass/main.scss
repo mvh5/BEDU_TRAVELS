@@ -227,6 +227,62 @@ body div section img {
     margin:0;
 }
 
+.bodyPasswordRecovery {
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+
+    .titlePasswordRecovery {
+        flex:1;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .descriptionPasswordRecovery {
+        flex:2;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .formPasswordRecovery {
+        flex:3;
+        display:flex;
+        width: 100vw;
+        
+        .column1PassRec {
+            flex: 2;
+            
+        }
+        .columnMainPassRec {
+            flex:2;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            
+            .passwordRecoveryFormulario {
+                display:flex;
+                flex-direction: column;
+                align-items:center;
+                justify-content: center;
+                form {
+                    input {
+                        width:280px;
+                    }
+                }
+            }
+        }
+        .columnImagePassRec {
+            flex:2;
+            
+            img {
+                width: 80%;
+                height:50%;
+            }
+        }
+    }
+}
+
 .bodyLogin {
     display:flex;
     flex-direction:column;
@@ -344,6 +400,25 @@ body div section img {
         .campos {
             .imagenSignup {
                 flex:0;
+            }
+        }
+    }
+
+    .bodyPasswordRecovery {
+        .formPasswordRecovery {
+            
+            flex-direction: column;
+            .column1PassRec {
+                flex:0;
+            }
+            .columnMainPassRec {
+                .passwordRecoveryFormulario {
+                    form {
+                        input {
+                            width: 230px;
+                        }
+                    }
+                }
             }
         }
     }

@@ -211,6 +211,54 @@ body div section img {
   margin: 0;
 }
 
+.bodyPasswordRecovery {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.bodyPasswordRecovery .titlePasswordRecovery {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyPasswordRecovery .descriptionPasswordRecovery {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyPasswordRecovery .formPasswordRecovery {
+  flex: 3;
+  display: flex;
+  width: 100vw;
+}
+.bodyPasswordRecovery .formPasswordRecovery .column1PassRec {
+  flex: 2;
+}
+.bodyPasswordRecovery .formPasswordRecovery .columnMainPassRec {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bodyPasswordRecovery .formPasswordRecovery .columnMainPassRec .passwordRecoveryFormulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bodyPasswordRecovery .formPasswordRecovery .columnMainPassRec .passwordRecoveryFormulario form input {
+  width: 280px;
+}
+.bodyPasswordRecovery .formPasswordRecovery .columnImagePassRec {
+  flex: 2;
+}
+.bodyPasswordRecovery .formPasswordRecovery .columnImagePassRec img {
+  width: 80%;
+  height: 50%;
+}
+
 .bodyLogin {
   display: flex;
   flex-direction: column;
@@ -315,6 +363,16 @@ body div section img {
 
   .bodySignUp .campos .imagenSignup {
     flex: 0;
+  }
+
+  .bodyPasswordRecovery .formPasswordRecovery {
+    flex-direction: column;
+  }
+  .bodyPasswordRecovery .formPasswordRecovery .column1PassRec {
+    flex: 0;
+  }
+  .bodyPasswordRecovery .formPasswordRecovery .columnMainPassRec .passwordRecoveryFormulario form input {
+    width: 230px;
   }
 }
 
